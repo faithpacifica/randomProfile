@@ -5,7 +5,7 @@ let images = ['2.jpg', '3.jpg', '4.jpg', 'images.jpg','6.jpg', '7.jpg', '8.jpg']
 
 setInterval(function(){
     setRandomProfile();
-},1000);
+},2000);
 
 
 function setRandomProfile(){
