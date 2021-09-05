@@ -1,0 +1,80 @@
+body{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.container{
+    text-align: center;
+    padding:50px 70px;
+    margin:0 auto;
+    background-color: #F7FAFF;
+    width:350px;
+}
+
+.respond-message{
+    padding:30px 30px 100px 30px;
+    background-image: linear-gradient(90deg, #629CFD, #738BF5, #8466D2  100%);
+    color:white;
+    border-radius: 15px;
+    width:300px;
+}
+.profile-box{
+    top:-80px;
+    margin: 0 auto;
+    text-align:center;
+    padding: 10px 30px 30px 30px;
+    position:relative;
+    width:230px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.profile-box__title{
+    color:#3C3C3D;
+    font-weight: bold;
+    font-size:120%;
+}
+
+.profile-box__photo{
+    width:80px;
+    height:80px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.profile-box__name{
+    color:#6C6B70;
+    font-weight: bold;
+    margin:0;
+}
+
+.profile-box__active{
+    color:#98999F;
+    border:0.5px #9EA3AC solid;
+    border-radius: 10px;
+    padding:3px 12px;
+    display:inline-block;
+    margin-bottom:30px;
+    margin-top:10px;
+}
+
+.profile-box__button{
+    background-image: linear-gradient(90deg, #629CFD, #738BF5, #8466D2);
+    border:none;
+    color:#fff;
+    padding:15px 20px;
+    border-radius: 10px;
+    display:block;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.active{
+    width:8px;
+    height:8px;
+    border-radius: 50%;
+    background-color:#7fca30;
+    display: inline-block;
+    margin-right:5px;
+}
